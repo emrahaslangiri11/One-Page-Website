@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lightbox İmage Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <img src="1.jpg" alt="Resim 1" class="gallery-img" onclick="openLightbox(this)">
+        <img src="2.jpg" alt="Resim 2" class="gallery-img" onclick="openLightbox(this)">
+        <img src="3.jpg" alt="Resim 3" class="gallery-img" onclick="openLightbox(this)">
+    </div>
+    
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" src="" alt="Lightbox Image">
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
