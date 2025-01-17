@@ -22,13 +22,6 @@ A simple and effective lightbox (modal image gallery) implementation. When users
 
 2. git clone https://github.com/emrahaslangiri11/One-Page-Website.git Open index.html in a web browser## Usage- Click on any image in the gallery- Close the image by clicking the X in the top right or pressing ESC## Project Structure
 
-├── index.html
-├── styles.css
-├── script.js
-└── images/
-├── 1.jpg
-├── 2.jpg
-└── 3.jpg
 
 
 ## License
